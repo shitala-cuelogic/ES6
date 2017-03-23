@@ -9,6 +9,7 @@
   "author": "shital.agarwal@cuelogic.com",
   "license": "ISC",
   "dependencies": {
+    "base-64": "^0.1.0",
     "flickity": "^2.0.5",
     "insane": "^2.6.2",
     "jquery": "^3.2.1",
