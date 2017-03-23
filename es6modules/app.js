@@ -1,6 +1,7 @@
 import { uniq } from 'lodash';
-import insane from 'insane';
-import jsonp from 'jsonp';
+// import insane from 'insane';
+// import jsonp from 'jsonp';
 
 const ages = [1, 2, 1];
-console.log(uniq(ages));
+uniq(ages);
+/*console.log(uniq(ages));*/
