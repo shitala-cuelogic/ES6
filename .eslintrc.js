@@ -8,13 +8,12 @@ module.exports = {
         "require": true,
         "module": true,
         "process": true,
-
     },
     "parserOptions": {
         "sourceType": "module",
     },
     "rules": {
-        "no-console": 1
+        "no-console": 0
     }
     
 };
