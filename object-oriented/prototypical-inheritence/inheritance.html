@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inheritance</title>
+</head>
+<body>
+
+<script>
+	
+	function Dog(name, breed) {
+		this.name = name;
+		this.breed = breed;
+	}
+
+	Dog.prototype.bark = function() {
+		console.log(`Bark Bark! My name is ${this.name}`);
+	}
+
+	const snikers = new Dog('snikers', 'King');
+	const sunny = new Dog('sunny', 'King-kong');
+
+</script>
+
+</body>
+</html>
