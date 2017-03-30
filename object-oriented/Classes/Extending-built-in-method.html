@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Extending Built in data type</title>
+</head>
+
+<body>
+    <script>
+ 
+    class MovieCollection extends Array {
+
+    	constructor(name, ...items) {
+    		super(...items); //new Array(1,2,3)
+    		this.name = name;
+    	}
+    	add(movie) {
+    		this.push(movie);
+    	}
+    }
+
+    const movies = new MovieCollection('dsa', {
+        name: 'ssdds',
+        stars: 10
+    }, {
+        name: 'sD',
+        stars: 8
+    }, {
+        name: 's',
+        stars: 5
+    }, {
+        name: 'dd',
+        stars: 1
+    });
+    movies.add({name: 'Titanic', stars: 5});
+    console.log(movies);
+
+    for (const movie of movies) {
+    	console.log(movie);
+    }
+    </script>
+</body>
+
+</html>
